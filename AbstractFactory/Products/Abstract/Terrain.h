@@ -5,5 +5,13 @@
 #include <vector>
 
 
-class Terrain {};
+class Terrain {
+
+public:
+    Terrain();
+    virtual void generate() = 0;
+    virtual void display() = 0;
+    virtual ~Terrain();
+    
+};
 #endif

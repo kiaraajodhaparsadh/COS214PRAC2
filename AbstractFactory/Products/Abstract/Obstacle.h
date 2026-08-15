@@ -4,5 +4,12 @@
 #include <string>
 #include <vector>
 
-class Obstacle{};
+class Obstacle{
+
+    public:
+        Obstacle();
+        virtual void interact() = 0;
+        virtual void display() = 0;
+        virtual ~Obstacle();
+};
 #endif

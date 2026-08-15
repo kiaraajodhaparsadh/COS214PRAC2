@@ -9,5 +9,11 @@
 #include "../../Products/Concrete/DesertNPC.h"
 #include "../../Products/Concrete/DesertTerrain.h"
 
-class DesertBuilder :public WorldBuilder{};
+class DesertBuilder :public WorldBuilder{
+
+    public:
+        Terrain* createTerrain();
+        NPC* createNPC();
+        Obstacle* createObstacle();
+};
 #endif

@@ -9,5 +9,11 @@
 #include "../../Products/Concrete/CityNPC.h"
 #include "../../Products/Concrete/CityTerrain.h"
 
-class CityBuilder :public WorldBuilder{};
+class CityBuilder :public WorldBuilder{
+
+    public:
+        Terrain* createTerrain();
+        NPC* createNPC();
+        Obstacle* createObstacle();
+};
 #endif

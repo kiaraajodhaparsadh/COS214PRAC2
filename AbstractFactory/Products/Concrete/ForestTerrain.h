@@ -5,5 +5,11 @@
 #include <vector>
 #include "../Abstract/Terrain.h"
 
-class ForestTerrain :public Terrain{};
+class ForestTerrain :public Terrain{
+
+     public:
+
+    void generate();
+    void display();
+};
 #endif

@@ -5,5 +5,9 @@
 #include <vector>
 #include "../Abstract/NPC.h"
 
-class DesertNPC :public NPC{};
+class DesertNPC :public NPC{
+
+    void interact();
+    void move();
+};
 #endif

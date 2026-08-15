@@ -5,7 +5,16 @@
 #include <string>
 #include <vector>
 
+class Traveller;
+
 class MoveState{
+
+    protected:
+    int MoveCode;
+
+    public:
+    virtual void doMove(Traveller* traveller)=0;
+    virtual ~MoveState();
 
 
 };

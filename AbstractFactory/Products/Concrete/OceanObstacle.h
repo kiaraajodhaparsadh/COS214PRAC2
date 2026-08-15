@@ -3,7 +3,13 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "../Abstract/Terrain.h"
+#include "../Abstract/Obstacle.h"
 
-class OceanObstacle :public Terrain{};
+class OceanObstacle :public Obstacle{
+
+      public:
+
+    void interact();
+    void display();
+};
 #endif

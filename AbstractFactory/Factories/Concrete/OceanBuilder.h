@@ -11,6 +11,13 @@
 #include "../../Products/Concrete/OceanObstacle.h"
 
 
-class OceanBuilder: public WorldBuilder{};
+class OceanBuilder: public WorldBuilder{
+
+    public:
+        Terrain* createTerrain();
+        NPC* createNPC();
+        Obstacle* createObstacle();
+        
+};
 
 #endif

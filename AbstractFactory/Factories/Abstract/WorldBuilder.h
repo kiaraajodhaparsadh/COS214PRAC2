@@ -8,6 +8,17 @@
 #include "../../Products/Abstract/Obstacle.h"
 
 
-class WorldBuilder{};
+class WorldBuilder{
+
+    public:
+    WorldBuilder();
+    virtual Terrain* createTerrain() =0;
+    virtual NPC* createNPC() =0;
+    virtual Obstacle* createObstacle()=0;
+    virtual ~WorldBuilder() ;
+
+
+
+};
 
 #endif

@@ -4,10 +4,21 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "MoveState.h"
 
 
 class Traveller{
 
+    private:
+        MoveState* state;
+
+    public:
+
+        Traveller();
+        void setState(MoveState* state);
+        void move();
+    
+   
 
 
 

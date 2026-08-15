@@ -5,5 +5,10 @@
 #include <vector>
 #include "../Abstract/Obstacle.h"
 
-class CityObstacle :public Obstacle{};
+class CityObstacle :public Obstacle{
+    public:
+
+    void interact();
+    void display();
+};
 #endif

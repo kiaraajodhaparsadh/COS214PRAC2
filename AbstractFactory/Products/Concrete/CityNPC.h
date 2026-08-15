@@ -5,5 +5,8 @@
 #include <vector>
 #include "../Abstract/NPC.h"
 
-class CityNPC : public NPC{};
+class CityNPC : public NPC{
+     void interact();
+     void move();
+};
 #endif
