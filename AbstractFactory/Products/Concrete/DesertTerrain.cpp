@@ -3,11 +3,10 @@
 #include <string>
 #include <vector>
 
- void DesertTerrain::generate(){
+void DesertTerrain::generate() {
+    std::cout << "Desert terrain is generated." << std::endl;
+}
 
-
- }
-    void DesertTerrain::display(){
-
-        
-    }
+void DesertTerrain::display() {
+    std::cout << "Desert terrain is displayed." << std::endl;
+}

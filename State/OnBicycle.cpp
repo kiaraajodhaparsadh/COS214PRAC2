@@ -6,5 +6,6 @@
 
 void OnBicycle::doMove(Traveller* traveller){
 
+  std::cout << "Traveller is moving on a bicycle." << std::endl;
 
   }

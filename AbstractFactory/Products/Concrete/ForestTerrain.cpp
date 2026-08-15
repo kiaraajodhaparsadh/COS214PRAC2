@@ -3,10 +3,10 @@
 #include <string>
 #include <vector>
 
- void ForestTerrain::generate(){
+void ForestTerrain::generate() {
+    std::cout << "Forest terrain is generated." << std::endl;
+}
 
- }
-    void ForestTerrain::display(){
-
-        
-    }
+void ForestTerrain::display() {
+    std::cout << "Forest terrain is displayed." << std::endl;
+}

@@ -5,10 +5,10 @@
 
 
  void DesertNPC::interact(){
-
+ std::cout << "Desert NPC talks to the traveller." << std::endl;
 
  }
 void DesertNPC::move(){
-
+std::cout << "Desert NPC walks across the desert." << std::endl;
     
 }

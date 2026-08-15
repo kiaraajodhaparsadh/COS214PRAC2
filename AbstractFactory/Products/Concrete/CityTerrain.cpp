@@ -4,11 +4,10 @@
 #include <vector>
 
 
- void CityTerrain::generate(){
+void CityTerrain::generate() {
+    std::cout << "City terrain is generated." << std::endl;
+}
 
-
- }
-    void CityTerrain::display(){
-
-
-    }
+void CityTerrain::display() {
+    std::cout << "City terrain is displayed." << std::endl;
+}

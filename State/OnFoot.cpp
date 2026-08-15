@@ -4,5 +4,7 @@
 #include <vector>
 
   void OnFoot::doMove(Traveller* traveller){
+
+     std::cout << "Traveller is moving on foot." << std::endl;
     
   }
