@@ -6,6 +6,7 @@
 #include "../Abstract/NPC.h"
 
 class OceanNPC :public NPC{
+    public:
     void interact();
     void move();
 };

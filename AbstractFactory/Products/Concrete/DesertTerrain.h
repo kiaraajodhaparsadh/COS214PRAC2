@@ -1,5 +1,5 @@
 #ifndef DESERTTERRAIN_H
-#define DESERTTTERAIN_H
+#define DESERTTERRAIN_H
 #include <iostream>
 #include <string>
 #include <vector>

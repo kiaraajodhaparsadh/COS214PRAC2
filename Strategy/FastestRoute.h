@@ -2,6 +2,7 @@
 #define FASTESTROUTE_H
 
 #include "RouteStrategy.h"
+#include <vector>
 
 // Concrete strategy 
 class FastestRoute : public RouteStrategy {
@@ -9,7 +10,7 @@ public:
     FastestRoute();
     ~FastestRoute() override;
 
-    std::vector<Place*> getRoute(Place* from, Place* to) const override;
+    std::string getRoute(const std::string& from, const std::string& to) const override;
     
 };
 

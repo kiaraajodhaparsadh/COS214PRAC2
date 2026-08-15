@@ -1,5 +1,5 @@
 #ifndef ONBICYCLE_H
-#define ONBICYCLE_h
+#define ONBICYCLE_H
 #include <iostream>
 #include <string>
 #include <vector>

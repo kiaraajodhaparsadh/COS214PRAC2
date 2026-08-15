@@ -6,7 +6,7 @@
 #include "../Abstract/NPC.h"
 
 class DesertNPC :public NPC{
-
+ public:
     void interact();
     void move();
 };

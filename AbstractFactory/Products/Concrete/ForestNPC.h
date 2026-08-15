@@ -7,6 +7,7 @@
 
 class ForestNPC :public NPC{
 
+     public:
     void interact();
     void move();
 };

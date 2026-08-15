@@ -15,6 +15,7 @@ class Traveller{
     public:
 
         Traveller();
+        ~Traveller();
         void setState(MoveState* state);
         void move();
     

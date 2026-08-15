@@ -1,4 +1,6 @@
 #include "CheapestRoute.h"
+#include "Place.h" //calling its methods
+#include <vector>
 
 
 CheapestRoute::CheapestRoute() {
@@ -9,6 +11,6 @@ CheapestRoute::~CheapestRoute() {
     // TODO: does this class own anything? if not, empty body is correct 
 }
 
-std::vector<Place*> CheapestRoute::getRoute(Place* from, Place* to) const {
+std::string CheapestRoute::getRoute(const std::string& from, const std::string& to) const {
     return "Cheapest route from " + from + " to " + to;
 }

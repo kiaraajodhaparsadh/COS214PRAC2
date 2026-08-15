@@ -4,12 +4,27 @@
 #include <string>
 #include <vector>
 
-Traveller::Traveller(){
+Traveller::Traveller(): state(0){
 
 }
-void Traveller::setState(MoveState* state){
-        this->state = state;
+
+Traveller::~Traveller() {
+    delete state;
+    state = 0;
 }
-        void Traveller::move(){
-            state->doMove(this);
-        }
+
+void Traveller::setState(MoveState* newState){
+      if (newState == state) return;
+    delete state;
+    state = newState;
+}
+
+//void Traveller::move(){
+            //state->doMove(this);
+       // }
+
+    void Traveller::move() {
+    if (state != 0) {
+        state->doMove(this);
+    }
+}

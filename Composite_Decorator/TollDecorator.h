@@ -1,5 +1,5 @@
 #ifndef TOLLDECORATOR_H
-#define TOLDECORATOR_H
+#define TOLLDECORATOR_H
 #include <string>
 #include <iostream>
 #include <vector>

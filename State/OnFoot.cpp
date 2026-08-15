@@ -3,8 +3,8 @@
 #include <string>
 #include <vector>
 
-  void OnFoot::doMove(Traveller* traveller){
+ void OnFoot::doMove(Traveller* traveller){
 
-     std::cout << "Traveller is moving on foot." << std::endl;
-    
+  std::cout << "Traveller is moving on foot." << std::endl;
+
   }

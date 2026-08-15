@@ -6,6 +6,9 @@
 #include "../Abstract/NPC.h"
 
 class CityNPC : public NPC{
+
+      public:
+      
      void interact();
      void move();
 };

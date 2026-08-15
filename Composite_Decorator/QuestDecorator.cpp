@@ -8,6 +8,6 @@ QuestDecorator::QuestDecorator(Place* place)
 }
 
 void QuestDecorator::print(int depth)const {
-    place->print();
+    place->print(depth);
     std::cout << "Quest available at this place." << std::endl;
 }
